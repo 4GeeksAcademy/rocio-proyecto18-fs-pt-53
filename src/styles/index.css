@@ -1,12 +1,37 @@
+div{
+    font-family: 'Snippet', sans-serif;
+}
+body{
+    background-color:antiquewhite
+}
+ul li{
+    margin:auto;
+    border: 1px solid gray;
+    list-style: none;
+    height: 40px;
+    width: 250px;
 
-/* 
+}
+input{
+    width: 100%;
+    height: 100%;
+}
+.element:hover{
+    background-color: aliceblue;
+.close{
+    opacity: 1;
+}
+}
+.close{
+    opacity:0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.number{
+    margin:auto;
+    text-align: end;
+    opacity: 0.5;
+    height: 20px;
+    width: 250px;
+    font-size: 12px;
 
-*/
+}
