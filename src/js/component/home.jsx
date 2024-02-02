@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "./input";
+import ToDoList from "./input";
 
 
 
@@ -7,7 +7,7 @@ import Input from "./input";
 const Home = () => {
 	return (
 		<div className="text-center">
-			<Input />
+			<ToDoList />
 			</div>
 	);
 };
